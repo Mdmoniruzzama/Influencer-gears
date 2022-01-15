@@ -91,3 +91,96 @@ ul li{
     margin: 0;
     padding 0:
 }
+.deraction{
+    text-align: right;
+    color: orange;
+    margin-top: 30px;
+    margin-right: 60px;
+
+}
+/* main part style end */
+/* bonus part style start */
+.tell-about-as{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.influencer-img img{
+    width: 50%;
+
+}
+/* bonus style end */
+/* footer style start */
+footer {
+    background: black;
+    padding: 3rem 0rem;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+  }
+  footer > * {
+    margin-bottom: 1rem;
+  }
+  .icon i {
+    background: #22213c;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .icon i:hover {
+    background-color: #333255;
+  }
+}
+footer a {
+  color: white;
+}
+/* footer style end */
+@media only screen and (max-width: 688px) {
+    .header-top {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .half-width {
+        width: 100%;
+      }
+      .manu-items ul {
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+        text-align: center;
+      }
+      .header-bottom {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+      .Popular-card {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      tell-about-us {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 10px;
+      }
+      media only screen and (min-width: 688px) and (max-width: 850px) {
+        .header-top {
+          flex-direction: column;
+          justify-content: center;
+        }
+        .half-width {
+            width: 100%;
+          }
+          .manu-items ul {
+            flex-direction: column;
+            justify-content: center;
+          }
+          .header-bottom {
+            flex-direction: column;
+            justify-content: center;
+          }
+          .Popular-card {
+            grid-template-columns: repeat(2, 1fr);
+          }
+          .tell-about-us {
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 10px;
+          }
