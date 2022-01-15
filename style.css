@@ -50,9 +50,44 @@ ul li{
 }
 .btn{
     color: white;
-    background: darkturquoise;
+    background: hsl(357, 88%, 36%);
     border-radius: 10px;
     padding: 5px;
     border: none;
     margin-bottom: 10px;
+}
+.influencer{
+    width:50%;
+    transition: all ease 0.3s;
+}
+.influencer:hover{
+    transform: secale (1.2);
+    background-color: burlywood;
+    border-radius: 50%;
+}
+#collection{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.popluer-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+.card{
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    box-shadox: 5px 5px 10px rgb(218,204,204);
+}
+.card img{
+    width: 40%;
+    
+}
+.fas{
+    font-size: 12px;
+    margin: 0;
+    padding 0:
 }
